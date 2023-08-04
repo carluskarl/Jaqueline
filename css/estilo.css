@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f7f0e8;
+    background-position: fixed;
+    font: 18px "Poppins", Arial, sans-serif;
+}
+
+#menu{
+    width: 100%;
+    background: url(../img/fundo.png) repeat;
+    position: sticky;
+}
+
+#container{
+    width: 1080px;
+    margin: 0 auto;
+    
+}
+
+header{ 
+    display: flex;
+}
+
+#logo a{
+    height: 250px;
+    width: 250px;
+    text-indent: -999px;
+    display: block;
+    float: left;
+    background: url(../img/logo.png) no-repeat;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+
+    padding-top: 80px;
+
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+a:link, a:active, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+article{
+    width: 100%;
+    height: 507px;
+}
+
+article p{
+    width: 35%;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 36px;
+    color: #fff;
+}
+
+article span{
+    width: 35%;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    
+}
+
+.block{
+    margin: 0;
+    padding-top: 1px;
+    width: 49%;
+    height: 507px;
+    display: inline-block;
+
+}
+
+.block p{
+    width: 100%;
+    padding: 0;
+    font-weight: bold;
+}
+
+#conheca{
+    background: url(../img/img5.jpg) no-repeat center;
+}
+
+#oleos{
+    text-align: justify;
+    background: url(../img/img3.png) no-repeat center;
+}
+
+#beneficios{
+    background-color: #f7f1f8;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+#beneficios p{
+    color: #b466c7;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+#beneficios .block{
+    height: auto;
+}
+
+#beneficios li{
+    list-style: none;
+    padding: 7.5px;
+    margin: 7.5px;
+
+    border: 2px solid #d3a7de;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#apresentacao{
+    background: url(../img/img11.png) no-repeat center;
+}
+
+
+footer{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+footer .block{
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: #dba54e;
+    font-weight: bold;
+    font-size: 24px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer span{
+    font-size: 15px;
+}
